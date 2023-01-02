@@ -75,3 +75,22 @@ public class cars {
         return speed;
     }
 }
+
+
+
+cars mercedes=new cars();
+mercedes.setModel(2022);
+mercedes.setColor('white');
+mercedes.setPacket('e 200');
+mercedes.setMaxSpeed(300);
+System.debug('model:' +mercedes.getModel()+
+             '\nColor:' +mercedes.getColor()+
+             '\nPacket:'+mercedes.getPacket()+
+             '\nMAxSpeed:'+mercedes.getMaxSpeed());
+             
+mercedes.run();
+mercedes.acceleration(89);
+mercedes.brake(30);
+mercedes.brake(60);
+mercedes.acceleration(330);
+mercedes.stop();
